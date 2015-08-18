@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Naive Wage Predictor</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Naive Wage Predictor">
+  <meta name="author" content="Lim Wei Ann">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="http://slidifylibraries2.googlecode.com/git/inst/libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="http://slidifylibraries2.googlecode.com/git/inst/libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="http://slidifylibraries2.googlecode.com/git/inst/libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="http://slidifylibraries2.googlecode.com/git/inst/libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/ribbons.css"></link>
+
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="http://slidifylibraries2.googlecode.com/git/inst/libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="http://slidifylibraries2.googlecode.com/git/inst/libraries/frameworks/io2012/js/slides" 
+    src="http://slidifylibraries2.googlecode.com/git/inst/libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>Naive Wage Predictor</h1>
+    <h2>Application to predict your wage based on your gender, ethnicity, education level, and marital status</h2>
+    <p>Lim Wei Ann<br/></p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <hgroup>
+    <h2>About</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>The &quot;Linear Regression&quot; application is a naive wage predictor based on user input of their:</li>
+</ul>
+
+<pre><code>1. Age via a slider   
+
+2. Education Level via radio buttons
+
+3. Ethnicity via radio buttons
+
+4. Marital Status via radio buttons
+</code></pre>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>The Fit</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>The predictor is train with the &quot;Wage&quot; data on the &quot;ISLR&quot; package using a simple linear regression model.</li>
+</ul>
+
+<pre><code>##  [1] &quot;year&quot;       &quot;age&quot;        &quot;sex&quot;        &quot;maritl&quot;     &quot;race&quot;      
+##  [6] &quot;education&quot;  &quot;region&quot;     &quot;jobclass&quot;   &quot;health&quot;     &quot;health_ins&quot;
+## [11] &quot;logwage&quot;    &quot;wage&quot;
+</code></pre>
+
+<ul>
+<li>There are many variables in the data set, but the linear regression model is fitted only with the follow variables:</li>
+</ul>
+
+<pre><code>1. age
+
+2. education
+
+3. maritl
+
+4. race
+</code></pre>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Using This Application</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li><p>You will be able to find out what you are expected to earn.</p></li>
+<li><p>Are you earning lesser than predicted? This is motivation for you to get out of your comfort zone and realise your full potential!</p></li>
+<li><p>How can you earn more? Will a higher education help?</p></li>
+<li><p>Perhaps a change in marital status may motivate you to earn more!</p></li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Watch This Space</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li><p>Future development is in the works.</p></li>
+<li><p>More data is being gathered to allow you to get a more accurate prediction by considering more parameters.</p></li>
+<li><p>A more accurate model is being developed</p></li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='About'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='The Fit'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='Using This Application'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='Watch This Space'>
+         4
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="http://slidifylibraries2.googlecode.com/git/inst/libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>

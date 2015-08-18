@@ -1,0 +1,44 @@
+---
+title       : Linear Regression: A Naive Wage Predictor
+subtitle    : Predicting wage with age, education, ethnicity and marital status
+author      : Andrew Lim Wei Ann
+job         : Student
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : []            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+---
+
+## About
+
+- The "Linear Regression" application is a naive wage predictor based on user input of their:
+
+    1. Age via a slide   
+    
+    2. Education Level via radio buttons
+    
+    3. Ethnicity via radio buttons
+    
+    4. Marital Status via radio buttons
+    
+- The predictor is train with the "Wage" data on the "ISLR" package using a simple linear regression model.
+
+- The linear regression model is fitted only with the follow variables:
+
+    1. age
+
+    2. education
+
+    3. maritl
+
+    4. race
+
+--- .class #id 
+
+## Slide 2
+
+
+
+
